@@ -1,6 +1,6 @@
 ### firebase link
 
-https://react-routing-updated.web.app/shop/Playlist_Campaign
+https://react-routing-updated.web.app/
 
 # Getting Started with Create React App
 
