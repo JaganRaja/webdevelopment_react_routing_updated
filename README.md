@@ -2,6 +2,27 @@
 
 https://react-routing-updated.web.app/
 
+## ref:
+https://www.youtube.com/watch?v=Law7wfdg_ls&list=PLDyQo7g0_nsVHmyZZpVJyFn5ojlboVEhE&index=3
+
+https://www.basefactor.com/react-how-to-display-a-loading-indicator-on-fetch-calls
+https://contactmentor.com/how-to-add-loading-spinner-react-js/
+https://www.w3schools.com/howto/howto_css_loader.asp
+https://stackoverflow.com/questions/66387199/displaying-a-success-or-error-message-in-react-js-upon-form-submit
+
+## API
+https://dash.fortnite-api.com/endpoints/cosmetics
+
+## stackoverflow:
+https://stackoverflow.com/questions/71806253/react-fetch-api-data-not-being-displayed
+
+## spinner:
+https://contactmentor.com/how-to-add-loading-spinner-react-js/
+
+## firebase deployment ref:
+https://hackernoon.com/how-to-deploy-a-react-application-with-firebase-hosting-p92m37b7
+https://www.geeksforgeeks.org/how-to-deploy-react-project-on-firebase/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
