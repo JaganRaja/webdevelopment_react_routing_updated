@@ -28,23 +28,23 @@ const ItemDetails = () => {
   console.log("type of item", typeof item);
 
   return (
-    <div className="App item_display">
-      {isLoading ? (
-        <LoadingSpinner />
-      ) : (
-        <>
-          <h1>name: {item.data.name}</h1>
-          <p>maxPlayers:{item.data.maxPlayers}</p>
-          <p>minPlayers:{item.data.minPlayers}</p>
-          <p>maxTeamSize:{item.data.maxTeamSize}</p>
-          <p>maxTeams:{item.data.maxTeams}</p>
-        </>
-      )}
-    </div>
+    // <div className="App item_display">
+    //   {isLoading ? (
+    //     <LoadingSpinner />
+    //   ) : (
+    //     <>
+    //       <h1>name: {item.data.name}</h1>
+    //       <p>maxPlayers:{item.data.maxPlayers}</p>
+    //       <p>minPlayers:{item.data.minPlayers}</p>
+    //       <p>maxTeamSize:{item.data.maxTeamSize}</p>
+    //       <p>maxTeams:{item.data.maxTeams}</p>
+    //     </>
+    //   )}
+    // </div>
 
     // WHY BELOW 2 are NOT WORKING
     // how to verify whether object is available after fetching from API to display
-    // && condition checking, ? ternary, ?. chain operator, isloading
+    // && condition checking, OR  ? ternary, OR  ?. chain operator, OR isloading
     // why inside isLoading logic unable to verify && verify object condition verify
     // what is the exact way to verify this
 
@@ -56,18 +56,23 @@ const ItemDetails = () => {
     //   <p>maxTeams:{item?.data?.maxTeams}</p>
     // </div>
 
-    // <div className="App item_display">
-    //   {isLoading ? <div>Loading</div> :
-    //   ({item.data && (
-    //     <>
-    //       <h1>name: {item.data.name}</h1>
-    //       <p>maxPlayers:{item.data.maxPlayers}</p>
-    //       <p>minPlayers:{item.data.minPlayers}</p>
-    //       <p>maxTeamSize:{item.data.maxTeamSize}</p>
-    //       <p>maxTeams:{item.data.maxTeams}</p>
-    //     </>
-    //   )})}
-    // </div>
+    <div className="App item_display">
+      {isLoading ? (
+        <div>Loading</div>
+      ) : (
+        <>
+          {item.data && (
+            <>
+              <h1>name: {item.data.name}</h1>
+              <p>maxPlayers:{item.data.maxPlayers}</p>
+              <p>minPlayers:{item.data.minPlayers}</p>
+              <p>maxTeamSize:{item.data.maxTeamSize}</p>
+              <p>maxTeams:{item.data.maxTeams}</p>
+            </>
+          )}
+        </>
+      )}
+    </div>
   );
 };
 
